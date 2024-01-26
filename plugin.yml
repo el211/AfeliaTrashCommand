@@ -1,0 +1,16 @@
+name: AfeliaTrashCommand
+version: 1.0
+author: VotreNom
+description: Plugin simple pour vider l'inventaire du joueur.
+api-version: 1.20
+main: com.elias.afeliatrashcommand.AfeliaTrashCommand
+
+commands:
+  trash:
+    description: Vide l'inventaire du joueur
+    usage: /trash
+    permission: afelia.trash
+  poubelle:
+    description: Vide l'inventaire du joueur (version française)
+    usage: /poubelle
+    permission: afelia.trash
